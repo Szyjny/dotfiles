@@ -190,3 +190,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
+
+# ————————————————————————
+# Edit command via nvim
+# ————————————————————————
+setopt ignore_eof
+autoload -Uz edit-command-line
+zle -N edit-command-line
+bindkey '^D' edit-command-line
