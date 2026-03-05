@@ -190,7 +190,6 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
-
 # ————————————————————————
 # Edit command via nvim
 # ————————————————————————
