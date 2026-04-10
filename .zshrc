@@ -54,6 +54,7 @@ alias cls='clear'
 alias ff='fastfetch'
 alias ":q"='exit'
 
+alias ld='lazydocker'
 alias lg='lazygit'
 alias g='git'
 
@@ -68,6 +69,8 @@ alias b3='cd ../../..'
 alias b4='cd ../../../..'
 
 alias core="ulimit -c unlimited"
+alias aa="$HOME/.local/bin/add_album.sh"
+alias sc="$HOME/.local/bin/szkopul-cli"
 
 # ————————————————————————
 # Funkcje
@@ -88,7 +91,7 @@ function cpp() {
     shift
 
     g++ "$main_file" -o "output"
-    ./"output" 
+    ./"output" "$@"
     rm ./"output"
 }
 
@@ -197,3 +200,5 @@ setopt ignore_eof
 autoload -Uz edit-command-line
 zle -N edit-command-line
 bindkey '^D' edit-command-line
+
+export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools

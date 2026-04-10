@@ -1,0 +1,10 @@
+tabbar {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+tabbar tabbox button {
+    min-height: 20px;
+    padding: 2px;
+}
+
