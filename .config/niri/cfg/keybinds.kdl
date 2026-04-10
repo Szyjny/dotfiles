@@ -9,8 +9,10 @@ binds {
     Mod+CTRL+K                               { show-hotkey-overlay; }
 
     // ─── Applications ───
-    Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    // Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    Mod+Return                          hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
     Mod+D                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Mod+Shift+D                         hotkey-overlay-title="Open clipboard history" { spawn-sh "qs -c noctalia-shell ipc call launcher clipboard"; }
     Mod+B                               hotkey-overlay-title="Open Browser: Zen" { spawn "zen-browser"; }
     Mod+CTRL+L                          hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+W                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
