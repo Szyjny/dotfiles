@@ -1,0 +1,14 @@
+# ~/.config/swaylock/config
+ignore-empty-password
+indicator-radius=100
+indicator-thickness=7
+
+# Tokyo Night Colors
+color=1a1b26
+ring-color=7aa2f7
+inside-color=1a1b26
+text-color=c0caf5
+ring-ver-color=9ece6a
+ring-wrong-color=f7768e
+# ... reszta kolorów z poprzedniej odpowiedzi
+

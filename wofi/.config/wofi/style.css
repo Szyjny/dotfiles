@@ -1,0 +1,57 @@
+/* Wofi Tokyo Night Theme */
+
+window {
+    margin: 0px;
+    border: 2px solid #7aa2f7; /* Terminal Blue */
+    background-color: #1a1b26; /* Editor Background (Night) */
+    font-family: "JetBrainsMono Nerd Font", "monospace";
+    font-size: 16px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #c0caf5; /* Terminal White / Foreground */
+    background-color: #24283b; /* Background (Storm) */
+    padding: 10px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #1a1b26;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: #1a1b26;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #a9b1d6; /* Editor Foreground */
+}
+
+#entry:selected {
+    background-color: #24283b;
+    border-radius: 5px;
+    outline: none;
+}
+
+#text:selected {
+    color: #7aa2f7; /* Highlight with Blue */
+}
+
+/* Styl dla Twojego skryptu z tapetami (podgląd obrazka) */
+#img {
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
