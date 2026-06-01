@@ -50,6 +50,8 @@ export EDITOR="nvim"
 alias n='nvim'
 alias cd='z'
 alias cls='clear'
+alias nix='noglob nix'
+alias nix-shell="nix-shell --run zsh"
 
 alias ff='fastfetch'
 alias ":q"='exit'
